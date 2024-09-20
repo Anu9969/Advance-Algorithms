@@ -5,7 +5,7 @@ using namespace std;
 class KMP {
 public:
     int lps(string s) {
-        // Create a vector to store the length of the prefix-suffix match
+        
         vector<int> lps(s.size(), 0);
         int pre = 0, suf = 1;
 
